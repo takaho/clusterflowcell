@@ -1,8 +1,13 @@
-# !pip install sklearn
-# !pip install plotly
-# !pip install MulticoreTSNE
-# !pip install umap-learn
-# !pip install fcsparser
+"""
+The extension of this script is ".py" since github does not interpret that of Jupyter notebook.
+You can modify the file name as "your_favorite_name.ipynb" and load on your Jupyter system.
+"""
+
+!pip install sklearn
+!pip install plotly
+!pip install MulticoreTSNE
+!pip install umap-learn
+!pip install fcsparser
 
 import sys, datetime, pathlib, re
 import plotly
